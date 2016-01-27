@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <title>Serverless - Find plugins and modules</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+  </head>
+  <body>
+    <style>
+      h1 {
+        margin: 25px 0;
+      }
+      p {
+        color: #BDBDBD;
+      }
+      .centered-text {
+        text-align: center;
+      }
+      .capitalize {
+        text-transform: capitalize;
+      }
+    </style>
+    <div class="container">
+      <div id="objects">
+        <div class="row">
+          <div class="twelve columns">
+            <h1 class="centered-text"><a href="http://serverless.com" target="_blank">Serverless</a> plugins and modules</h1>
+            <p class="centered-text">Browse through all Serverless plugins and modules</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <input type="text" class="u-full-width search" placeholder="Type something..." autofocus>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <table class="u-full-width">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Description</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody class="list" data-id="table-body">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var objects = [
+        // --- ADD PLUGINS AND MODULES HERE
+        // plugins
+        {
+          title: 'Boilerplate',
+          description: 'Boilerplate for plugin development',
+          url: 'https://github.com/serverless/serverless-plugin-boilerplate',
+          type: 'plugin'
+        },
+        {
+          title: 'Resources validation plugin',
+          description: 'Adds an action to validate your CloudFormation template',
+          url: 'https://github.com/tmilewski/serverless-resources-validation-plugin',
+          type: 'plugin'
+        },
+        {
+          title: 'Alerting',
+          description: 'Add Cloudwatch alarms with SNS notifications',
+          url: 'https://github.com/martinlindenberg/serverless-plugin-alerting',
+          type: 'plugin'
+        },
+        {
+          title: 'Lambda prune',
+          description: 'Remove / delete unused lambda functions',
+          url: 'https://github.com/Nopik/serverless-lambda-prune-plugin',
+          type: 'plugin'
+        },
+        {
+          title: 'Autoprune',
+          description: 'Automatically remove / delete unused lambda functions',
+          url: 'https://github.com/kennu/serverless-plugin-autoprune',
+          type: 'plugin'
+        },
+        {
+          title: 'Swagger',
+          description: 'Swagger support',
+          url: 'https://github.com/marklawlor/serverless-swagger',
+          type: 'plugin'
+        },
+        {
+          title: 'CORS',
+          description: 'CORS support plugin',
+          url: 'https://github.com/joostfarla/serverless-cors-plugin',
+          type: 'plugin'
+        },
+        {
+          title: 'Serve',
+          description: 'Test lambda function offline / locally',
+          url: 'https://github.com/Nopik/serverless-serve',
+          type: 'plugin'
+        },
+        {
+          title: 'Base path',
+          description: 'Setting a base path for all API Gateway endpoints in a component',
+          url: 'https://github.com/daffinity/serverless-base-path-plugin',
+          type: 'plugin'
+        },
+        // modules
+        {
+          title: 'NPM registry',
+          description: 'Simple private NPM registry',
+          url: 'https://github.com/Inbot/awsm-npm-registry',
+          type: 'module'
+        },
+        {
+          title: 'Users',
+          description: 'Module for authentication',
+          url: 'https://github.com/dekz/awsm-users',
+          type: 'module'
+        },
+        {
+          title: 'Test users',
+          description: 'Test AWSM users',
+          url: 'https://github.com/oren/test-awsm-users',
+          type: 'module'
+        },
+        {
+          title: 'Stripe webhook',
+          description: 'Stripe webhook integration',
+          url: 'https://github.com/eahefnawy/serverless-stripe-webhook',
+          type: 'module'
+        },
+        {
+          title: 'Slack webhook',
+          description: 'Slack webhook integration',
+          url: 'https://github.com/eahefnawy/serverless-slack-webhook',
+          type: 'module'
+        },
+        {
+          title: 'Slack',
+          description: 'Slack boilerplate functionality',
+          url: 'https://github.com/serverless/serverless-slack',
+          type: 'module'
+        },
+        {
+          title: 'Examples',
+          description: 'Module examples',
+          url: 'https://github.com/remicastaing/serverless-examples',
+          type: 'module'
+        },
+        {
+          title: 'Slackbot',
+          description: 'Slackbot for Slack',
+          url: 'https://github.com/serverless/serverless-slackbot',
+          type: 'module'
+        },
+        {
+          title: 'Images',
+          description: 'Image operations',
+          url: 'https://github.com/awsm-org/awsm-images',
+          type: 'module'
+        },
+        {
+          title: 'CloudFront',
+          description: 'Puts CloudFront distribution in front of a Serverless project',
+          url: 'https://github.com/boushley/awsm-cloudfront',
+          type: 'module'
+        },
+        {
+          title: 'Token vendor',
+          description: 'Generate S3 upload tokens',
+          url: 'https://github.com/binoculars/awsm-s3tokenvendor',
+          type: 'module'
+        },
+        {
+          title: 'Loggly',
+          description: 'Loggly integration',
+          url: 'https://github.com/jwulf/awsm-loggly',
+          type: 'module'
+        },
+        {
+          title: 'Middleware',
+          description: 'Middleware for your Serverless project',
+          url: 'https://github.com/jwulf/awsm-middleware',
+          type: 'module'
+        },
+        {
+          title: 'GitHub webhook',
+          description: 'GitHub webhook integration',
+          url: 'https://github.com/bisque33/awsm-github-webhook',
+          type: 'module'
+        },
+        {
+          title: 'Comments',
+          description: 'Add Comments to your project (runs with DynamoDB)',
+          url: 'https://github.com/donleyp/awsm-comments',
+          type: 'module'
+        },
+        {
+          title: '3scale',
+          description: '3scale API management platform integration',
+          url: 'https://github.com/jerzyn/awsm-3scale',
+          type: 'module'
+        }
+      ];
+
+      // --- DONT TOUCH ANYTHING HERE ---
+      // render the table initially
+      var sortedObjects = _.sortBy(objects, 'title');
+
+      $('[data-id=table-body]').html('');
+      sortedObjects.forEach(function (object) {
+        var htmlString = '<tr><td class="capitalize title"><a href="' + object.url + '" target="_blank">' + object.title + '</a></td><td class="capitalize description">' + object.description + '</td><td class="capitalize">' + object.type + '</td></tr>';
+        $('[data-id=table-body]').append(htmlString);
+      });
+
+      objectList = new List('objects', { valueNames: ['title', 'description'] })
+    </script>
+  </body>
+</html>
