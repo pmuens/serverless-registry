@@ -1,2 +1,2 @@
-# [Serverless search](https://pmuens.github.io/serverless-search)
+# [Serverless Registry](https://justserverless.github.io/serverless-registry)
 Search for serverless plugins and modules
