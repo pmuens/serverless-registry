@@ -1,69 +1,69 @@
 {
-        "plugins": [
-          {
-            "name": "serverless:plugin-boilerplate",
-            "description": "Boilerplate for plugin development",
-            "gitUrl": "git://github.com/serverless/serverless-plugin-boilerplate"
-          },
-          {
-            "name": "tmilewski:resources-validation-plugin",
-            "description": "Validate your CloudFormation template",
-            "gitUrl": "git://github.com/tmilewski/serverless-resources-validation-plugin"
-          },
-          {
-            "name": "martinlindenberg:plugin-alerting",
-            "description": "Add Cloudwatch alarms with SNS notifications",
-            "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-alerting"
-          },
-          {
-            "name": "nopik:lambda-prune-plugin",
-            "description": "Remove / delete unused lambda functions",
-            "gitUrl": "git://github.com/Nopik/serverless-lambda-prune-plugin"
-          },
-          {
-            "name": "kennu:plugin-autoprune",
-            "description": "Automatically remove / delete unused lambda functions",
-            "gitUrl": "git://github.com/kennu/serverless-plugin-autoprune"
-          },
-          {
-            "name": "marklawlor:swagger",
-            "description": "Swagger support",
-            "gitUrl": "git://github.com/marklawlor/serverless-swagger"
-          },
-          {
-            "name": "joostfarla:cors-plugin",
-            "description": "CORS support plugin",
-            "gitUrl": "git://github.com/joostfarla/serverless-cors-plugin"
-          },
-          {
-            "name": "nopik:serve",
-            "description": "Test lambda function offline / locally",
-            "gitUrl": "git://github.com/Nopik/serverless-serve"
-          },
-          {
-            "name": "daffinity:base-path-plugin",
-            "description": "Setting a base path for all API Gateway endpoints in a component",
-            "gitUrl": "git://github.com/daffinity/serverless-base-path-plugin"
-          },
-          {
-            "name": "martinlindenberg:sns",
-            "description": "Plugin for SNS support",
-            "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-sns"
-          },
-          {
-            "name": "martinlindenberg:cronjob",
-            "description": "Use Cronjobs inside your project",
-            "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-cronjob"
-          },
-          {
-            "name": "hiroara:api-blueprint",
-            "description": "API documentation generator",
-            "gitUrl": "git://github.com/hiroara/serverless-api-blueprint"
-          },
-          {
-            "name": "martinlindenberg:plugin-vpc",
-            "description": "VPC support for Serverless",
-            "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-vpc"
-          }
-        ]
-      };
+  "plugins": [
+    {
+      "name": "serverless:plugin-boilerplate",
+      "description": "Boilerplate for plugin development",
+      "gitUrl": "git://github.com/serverless/serverless-plugin-boilerplate"
+    },
+    {
+      "name": "tmilewski:resources-validation-plugin",
+      "description": "Validate your CloudFormation template",
+      "gitUrl": "git://github.com/tmilewski/serverless-resources-validation-plugin"
+    },
+    {
+      "name": "martinlindenberg:plugin-alerting",
+      "description": "Add Cloudwatch alarms with SNS notifications",
+      "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-alerting"
+    },
+    {
+      "name": "nopik:lambda-prune-plugin",
+      "description": "Remove / delete unused lambda functions",
+      "gitUrl": "git://github.com/Nopik/serverless-lambda-prune-plugin"
+    },
+    {
+      "name": "kennu:plugin-autoprune",
+      "description": "Automatically remove / delete unused lambda functions",
+      "gitUrl": "git://github.com/kennu/serverless-plugin-autoprune"
+    },
+    {
+      "name": "marklawlor:swagger",
+      "description": "Swagger support",
+      "gitUrl": "git://github.com/marklawlor/serverless-swagger"
+    },
+    {
+      "name": "joostfarla:cors-plugin",
+      "description": "CORS support plugin",
+      "gitUrl": "git://github.com/joostfarla/serverless-cors-plugin"
+    },
+    {
+      "name": "nopik:serve",
+      "description": "Test lambda function offline / locally",
+      "gitUrl": "git://github.com/Nopik/serverless-serve"
+    },
+    {
+      "name": "daffinity:base-path-plugin",
+      "description": "Setting a base path for all API Gateway endpoints in a component",
+      "gitUrl": "git://github.com/daffinity/serverless-base-path-plugin"
+    },
+    {
+      "name": "martinlindenberg:sns",
+      "description": "Plugin for SNS support",
+      "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-sns"
+    },
+    {
+      "name": "martinlindenberg:cronjob",
+      "description": "Use Cronjobs inside your project",
+      "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-cronjob"
+    },
+    {
+      "name": "hiroara:api-blueprint",
+      "description": "API documentation generator",
+      "gitUrl": "git://github.com/hiroara/serverless-api-blueprint"
+    },
+    {
+      "name": "martinlindenberg:plugin-vpc",
+      "description": "VPC support for Serverless",
+      "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-vpc"
+    }
+  ]
+}
