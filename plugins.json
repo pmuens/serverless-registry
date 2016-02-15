@@ -16,7 +16,7 @@
     },
     {
       "name": "martinlindenberg:plugin-alerting",
-      "npmName": "serverless-plugin-alerting".
+      "npmName": "serverless-plugin-alerting",
       "description": "Add Cloudwatch alarms with SNS notifications",
       "gitUrl": "git://github.com/martinlindenberg/serverless-plugin-alerting.git",
       "gitHubUrl": "https://github.com/martinlindenberg/serverless-plugin-alerting"
