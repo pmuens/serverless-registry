@@ -104,6 +104,13 @@
       "description": "Deploy your serverless static site to S3 Website Bucket",
       "gitUrl": "git://github.com/serverless/serverless-client-s3.git",
       "gitHubUrl": "https://github.com/serverless/serverless-client-s3"
+    },
+    {
+      "name": "asprouse:serverless-optimizer-plugin",
+      "npmName": "asprouse/serverless-optimizer-plugin",
+      "description": "Fork of the optimizer plugin which uses Webpack",
+      "gitUrl": "git://github.com/asprouse/serverless-optimizer-plugin.git",
+      "gitHubUrl": "https://github.com/asprouse/serverless-optimizer-plugin"
     }
   ]
 }
