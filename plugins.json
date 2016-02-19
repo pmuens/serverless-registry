@@ -111,6 +111,13 @@
       "description": "Fork of the optimizer plugin which uses Webpack",
       "gitUrl": "git://github.com/asprouse/serverless-optimizer-plugin.git",
       "gitHubUrl": "https://github.com/asprouse/serverless-optimizer-plugin"
+    },
+    {
+      "name": "joostfarla:jshint-plugin",
+      "npmName": "serverless-jshint-plugin",
+      "description": "Detect errors and potential problems in your Lambda functions",
+      "gitUrl": "git://github.com/joostfarla/serverless-jshint-plugin.git",
+      "gitHubUrl": "https://github.com/joostfarla/serverless-jshint-plugin"
     }
   ]
 }
