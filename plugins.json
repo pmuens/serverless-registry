@@ -125,6 +125,27 @@
       "description": "Use Webpack to optimize your Serverless Node.js Functions",
       "gitUrl": "git://github.com/asprouse/serverless-webpack-plugin.git",
       "gitHubUrl": "https://github.com/asprouse/serverless-webpack-plugin"
+    },
+    {
+      "name": "serverless:runtime-babel",
+      "npmName": "serverless-runtime-babel",
+      "description": "Babel runtime for your Serverless project",
+      "gitUrl": "git://github.com/serverless/serverless-runtime-babel.git",
+      "gitHubUrl": "https://github.com/serverless/serverless-runtime-babel"
+    },
+    {
+      "name": "marclar:runtime-streamline",
+      "npmName": "serverless-runtime-streamline",
+      "description": "Streamline for Serverless",
+      "gitUrl": "git://github.com/marclar/serverless-runtime-streamline.git",
+      "gitHubUrl": "https://github.com/marclar/serverless-runtime-streamline"
+    },
+    {
+      "name": "serverless:meta-sync",
+      "npmName": "serverless-meta-sync",
+      "description": "Share a project meta data easily",
+      "gitUrl": "git://github.com/serverless/serverless-meta-sync.git",
+      "gitHubUrl": "https://github.com/serverless/serverless-meta-sync"
     }
   ]
 }
