@@ -146,6 +146,13 @@
       "description": "Share a project meta data easily",
       "gitUrl": "git://github.com/serverless/serverless-meta-sync.git",
       "gitHubUrl": "https://github.com/serverless/serverless-meta-sync"
+    },
+    {
+      "name": "marclar:serverless-graphiql",
+      "npmName": "serverless-graphiql",
+      "description": "Deploys a GraphiQL client to a public S3 bucket",
+      "gitUrl": "git://github.com/marclar/serverless-graphiql.git",
+      "gitHubUrl": "https://github.com/marclar/serverless-graphiql"
     }
   ]
 }
