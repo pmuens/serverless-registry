@@ -158,7 +158,7 @@
       "name": "camhart:sls-s3",
       "npmName": "sls-s3",
       "description": "Upload files to S3",
-      "gitUrl": "git://github.com/camhart/sls-s3.git"
+      "gitUrl": "git://github.com/camhart/sls-s3.git",
       "gitHubUrl": "https://github.com/camhart/sls-s3"
     }
   ]
