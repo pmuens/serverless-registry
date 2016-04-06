@@ -160,6 +160,13 @@
       "description": "Upload files to S3",
       "gitUrl": "git://github.com/camhart/sls-s3.git",
       "gitHubUrl": "https://github.com/camhart/sls-s3"
+    },
+    {
+      "name": "serverless:swagger",
+      "npmName": "serverless-swagger-import-plugin",
+      "description": "Swagger for Serverless",
+      "gitUrl": "git://github.com/serverless/serverless-swagger-plugin.git",
+      "gitHubUrl": "https://github.com/serverless/serverless-swagger-plugin"
     }
   ]
 }
