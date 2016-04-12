@@ -167,6 +167,13 @@
       "description": "Swagger for Serverless",
       "gitUrl": "git://github.com/serverless/serverless-swagger-plugin.git",
       "gitHubUrl": "https://github.com/serverless/serverless-swagger-plugin"
+    },
+    {
+      "name": "stelligent:synchronous-resource-plugin",
+      "npmName": "serverless-synchronous-resource-plugin",
+      "description": "Plugin for deploying custom CFN stacks",
+      "gitUrl": "git://github.com/stelligent/serverless-synchronous-resource-plugin.git",
+      "gitHubUrl": "https://github.com/stelligent/serverless-synchronous-resource-plugin"
     }
   ]
 }
