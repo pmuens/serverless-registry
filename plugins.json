@@ -176,7 +176,7 @@
       "gitHubUrl": "https://github.com/stelligent/serverless-synchronous-resource-plugin"
     },
     {
-      "name": "hyperbrain:models",
+      "name": "hyperbrain:models-plugin",
       "npmName": "serverless-models-plugin",
       "description": "Model support for Serverless",
       "gitUrl": "git://github.com/HyperBrain/serverless-models-plugin.git",
