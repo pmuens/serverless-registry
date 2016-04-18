@@ -174,6 +174,13 @@
       "description": "Plugin for deploying custom CFN stacks",
       "gitUrl": "git://github.com/stelligent/serverless-synchronous-resource-plugin.git",
       "gitHubUrl": "https://github.com/stelligent/serverless-synchronous-resource-plugin"
+    },
+    {
+      "name": "hyperbrain:models",
+      "npmName": "serverless-models-plugin",
+      "description": "Model support for Serverless",
+      "gitUrl": "git://github.com/HyperBrain/serverless-models-plugin.git",
+      "gitHubUrl": "https://github.com/HyperBrain/serverless-models-plugin"
     }
   ]
 }
