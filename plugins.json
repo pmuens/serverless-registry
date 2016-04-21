@@ -181,6 +181,13 @@
       "description": "Model support for Serverless",
       "gitUrl": "git://github.com/HyperBrain/serverless-models-plugin.git",
       "gitHubUrl": "https://github.com/HyperBrain/serverless-models-plugin"
+    },
+    {
+      "name": "sc5:mocha-plugin",
+      "npmName": "serverless-mocha-plugin",
+      "description": "Use Mocha.js with Serverless",
+      "gitUrl": "git://github.com/SC5/serverless-mocha-plugin.git",
+      "gitHubUrl": "https://github.com/SC5/serverless-mocha-plugin"
     }
   ]
 }
