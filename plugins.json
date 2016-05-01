@@ -188,6 +188,13 @@
       "description": "Use Mocha.js with Serverless",
       "gitUrl": "git://github.com/SC5/serverless-mocha-plugin.git",
       "gitHubUrl": "https://github.com/SC5/serverless-mocha-plugin"
+    },
+    {
+      "name": "hyperbrain:package-plugin",
+      "npmName": "serverless-package-plugin",
+      "description": "Allow packaging functions without deployment",
+      "gitUrl": "git://github.com/HyperBrain/serverless-package-plugin.git",
+      "gitHubUrl": "https://github.com/HyperBrain/serverless-package-plugin"
     }
   ]
 }
