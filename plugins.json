@@ -198,7 +198,7 @@
     },
     {
       "name": "arabold:sentry-plugin",
-      "npmName": "serverless-sentry-plugin"
+      "npmName": "serverless-sentry-plugin",
       "description": "Adds Sentry integration to Serverless",
       "gitUrl": "git://github.com/arabold/serverless-sentry-plugin.git",
       "gitHubUrl": "https://github.com/arabold/serverless-sentry-plugin"
