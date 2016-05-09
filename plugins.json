@@ -202,6 +202,13 @@
       "description": "Adds Sentry integration to Serverless",
       "gitUrl": "git://github.com/arabold/serverless-sentry-plugin.git",
       "gitHubUrl": "https://github.com/arabold/serverless-sentry-plugin"
+    },
+    {
+      "name": "arabold:autoprune-plugin",
+      "npmName": "serverless-autoprune-plugin",
+      "description": "Automatically remove old lambdas",
+      "gitUrl": "git://github.com/arabold/serverless-autoprune-plugin.git",
+      "gitHubUrl": "https://github.com/arabold/serverless-autoprune-plugin"
     }
   ]
 }
