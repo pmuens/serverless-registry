@@ -195,6 +195,13 @@
       "description": "Allow packaging functions without deployment",
       "gitUrl": "git://github.com/HyperBrain/serverless-package-plugin.git",
       "gitHubUrl": "https://github.com/HyperBrain/serverless-package-plugin"
+    },
+    {
+      "name": "arabold:sentry-plugin",
+      "npmName": "serverless-sentry-plugin"
+      "description": "Adds Sentry integration to Serverless",
+      "gitUrl": "git://github.com/arabold/serverless-sentry-plugin.git",
+      "gitHubUrl": "https://github.com/arabold/serverless-sentry-plugin"
     }
   ]
 }
