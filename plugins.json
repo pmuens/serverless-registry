@@ -209,6 +209,13 @@
       "description": "Automatically remove old lambdas",
       "gitUrl": "git://github.com/arabold/serverless-autoprune-plugin.git",
       "gitHubUrl": "https://github.com/arabold/serverless-autoprune-plugin"
+    },
+    {
+      "name": "trek10inc:secrets",
+      "npmName": "serverless-secrets",
+      "description": "Easy secret management",
+      "gitUrl": "git://github.com/trek10inc/serverless-secrets.git",
+      "gitHubUrl": "https://github.com/trek10inc/serverless-secrets"
     }
   ]
 }
