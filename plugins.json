@@ -216,6 +216,13 @@
       "description": "Easy secret management",
       "gitUrl": "git://github.com/trek10inc/serverless-secrets.git",
       "gitHubUrl": "https://github.com/trek10inc/serverless-secrets"
+    },
+    {
+      "name": "vandium-io:vandium-serverless",
+      "npmName": "vandium-serverless",
+      "description": "Vandium plugin for serverless",
+      "gitUrl": "git://github.com/vandium-io/vandium-serverless.git",
+      "gitHubUrl": "https://github.com/vandium-io/vandium-serverless"
     }
   ]
 }
