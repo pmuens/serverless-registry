@@ -223,6 +223,13 @@
       "description": "Vandium plugin for serverless",
       "gitUrl": "git://github.com/vandium-io/vandium-serverless.git",
       "gitHubUrl": "https://github.com/vandium-io/vandium-serverless"
+    },
+    {
+      "name": "horike37:command-line-event-args"
+      "npmName": "serverless-command-line-event-args"
+      "description": "Pass JSON to serverless via the command line"
+      "gitUtl": "git://github.com/horike37/serverless-command-line-event-args.git",
+      "gitHubUrl": "https://github.com/horike37/serverless-command-line-event-args"
     }
   ]
 }
