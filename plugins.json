@@ -234,7 +234,7 @@
     {
       "name": "horike37:unittest-boilerplate",
       "npmName": "serverless-unittest-boilerplate",
-      "descrpition": "Unit tests for Serverless",
+      "description": "Unit tests for Serverless",
       "gitUrl": "git://github.com/horike37/serverless-unittest-boilerplate.git",
       "gitHubUrl": "https://github.com/horike37/serverless-unittest-boilerplate"
     }
