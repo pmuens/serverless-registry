@@ -230,6 +230,13 @@
       "description": "Pass JSON to serverless via the command line",
       "gitUtl": "git://github.com/horike37/serverless-command-line-event-args.git",
       "gitHubUrl": "https://github.com/horike37/serverless-command-line-event-args"
+    },
+    {
+      "name": "horike37:unittest-boilerplate",
+      "npmName": "serverless-unittest-boilerplate",
+      "descrpition": "Unit tests for Serverless",
+      "gitUrl": "git://github.com/horike37/serverless-unittest-boilerplate.git",
+      "gitHubUrl": "https://github.com/horike37/serverless-unittest-boilerplate"
     }
   ]
 }
