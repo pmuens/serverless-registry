@@ -237,7 +237,7 @@
       "description": "Unit tests for Serverless",
       "gitUrl": "git://github.com/horike37/serverless-unittest-boilerplate.git",
       "gitHubUrl": "https://github.com/horike37/serverless-unittest-boilerplate"
-    }.
+    },
     {
       "name": "99xt:dependency-install",
       "npmName": "serverless-dependency-install",
