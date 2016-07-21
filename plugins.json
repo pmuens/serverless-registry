@@ -237,6 +237,20 @@
       "description": "Unit tests for Serverless",
       "gitUrl": "git://github.com/horike37/serverless-unittest-boilerplate.git",
       "gitHubUrl": "https://github.com/horike37/serverless-unittest-boilerplate"
+    }.
+    {
+      "name": "99xt:dependency-install",
+      "npmName": "serverless-dependency-install",
+      "description": "Serverless plugin for managing dependencies",
+      "gitUrl": "git://github.com/99xt/serverless-dependency-install.git",
+      "gitHubUrl": "https://github.com/99xt/serverless-dependency-install"
+    },
+    {
+      "name": "99xt:dynamodb-local",
+      "npmName": "serverless-dynamodb-local",
+      "description": "Use DynamoDB locally with Serverless",
+      "gitUrl": "git://github.com/99xt/serverless-dynamodb-local.git",
+      "gitHubUrl": "https://github.com/99xt/serverless-dynamodb-local"
     }
   ]
 }
