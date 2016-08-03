@@ -251,6 +251,13 @@
       "description": "Use DynamoDB locally with Serverless",
       "gitUrl": "git://github.com/99xt/serverless-dynamodb-local.git",
       "gitHubUrl": "https://github.com/99xt/serverless-dynamodb-local"
+    },
+    {
+      "name": "trek10inc:cognito-manager",
+      "npmName": "serverless-cognito-manager",
+      "description": "Easy cognito management for Serverless projects",
+      "gitUrl": "git://github.com/trek10inc/serverless-cognito-manager.git",
+      "gitHubUrl": "https://github.com/trek10inc/serverless-cognito-manager"
     }
   ]
 }
