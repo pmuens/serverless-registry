@@ -269,7 +269,7 @@
     {
       "name": "blackevil245:header-function",
       "npmName": "serverless-header-function",
-      "description": "Automatically run a JavaScript script on every Serverless action hooks"
+      "description": "Automatically run a JavaScript script on every Serverless action hooks",
       "gitUrl": "git://github.com/blackevil245/serverless-header-function.git",
       "gitHubUrl": "https://github.com/blackevil245/serverless-header-function"
     }
