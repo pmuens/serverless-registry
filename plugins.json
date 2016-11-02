@@ -265,6 +265,13 @@
       "description": "Run code whenever certain Serverless actions are triggered",
       "gitUrl": "git://github.com/kennu/serverless-plugin-hookscripts.git",
       "gitHubUrl": "https://github.com/kennu/serverless-plugin-hookscripts"
+    },
+    {
+      "name": "blackevil245:header-function",
+      "npmName": "serverless-header-function",
+      "description": "Automatically run a JavaScript script on every Serverless action hooks"
+      "gitUrl": "git://github.com/blackevil245/serverless-header-function.git",
+      "gitHubUrl": "https://github.com/blackevil245/serverless-header-function"
     }
   ]
 }
